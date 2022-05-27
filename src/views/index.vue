@@ -1,10 +1,10 @@
 <template>
-    <div>首页</div>
-    <h1 class="text-3xl font-bold underline text-violet-800">{{ msg }}</h1>
+    <headNav></headNav>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import headNav from '@/components/HeadNav.vue';
 const msg = ref('Hello,World!');
 </script>
 
